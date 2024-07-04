@@ -1,6 +1,29 @@
-# Getting Started with Create React App
+# App Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React application for managing tasks with an interactive dashboard.
+The application should:
+Display a dashboard with multiple task cards, each representing a task with:
+Title
+Description
+Due date
+Priority level (e.g., high, medium, low)
+Status (e.g., in progress, completed)
+Edit and Delete buttons for each task card.
+Include functionality to:
+Toggle the visibility of task details (description, due date, priority) within each task card using a "Show/Hide Details" button.
+Edit task details (title, description, due date, priority) inline directly within the task card.
+Mark tasks as complete or change their status dynamically.
+Add new tasks dynamically using a form.
+Sort tasks by due date or priority.
+Ensure the UI updates dynamically:
+Task details should expand or collapse based on their visibility state.
+Updated task details should reflect immediately in the UI.
+Deleted tasks should be removed from the dashboard.
+Instructions:
+Utilize useState and useEffect hooks to manage the state of tasks and their details.
+Implement advanced conditional rendering to toggle visibility, dynamically update task details, and manage task status.
+Design an interactive and visually appealing dashboard layout that enhances task management and user experience.
+Implement responsive design principles to ensure the dashboard adapts to different screen sizes.
 
 ## Available Scripts
 
